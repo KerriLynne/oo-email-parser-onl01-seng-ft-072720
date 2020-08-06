@@ -13,5 +13,3 @@ class EmailAddressParser
   end
 
 end
-
-    arr = self.split(/[!.?]+/)
