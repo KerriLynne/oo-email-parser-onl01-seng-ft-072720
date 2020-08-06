@@ -11,6 +11,7 @@ class EmailAddressParser
   def parse
     @string.split(" ").map do |word|
       word.strip(",")
+    end  
   end
 
 end
