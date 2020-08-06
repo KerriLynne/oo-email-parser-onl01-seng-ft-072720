@@ -9,7 +9,8 @@ class EmailAddressParser
   end
 
   def parse
-    @string.split(" ").strip(",")
+    @string.split(" ").map do |word|
+      word.strip(",")
   end
 
 end
