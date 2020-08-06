@@ -9,7 +9,7 @@ class EmailAddressParser
   end
 
   def parse
-    @string.split(" ").string
+    @string.split(" ").strip(",")
   end
 
 end
